@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+header h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 767px){
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.card {
+    border: 1px solid darkgray;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 500px;
+    margin: 20vh auto;
+
+}
+/* form items */
+.form-control > * {
+    display: block;
+    padding: 2rem 0;
+    width: 100%;
+}
+.form-control input {
+    min-height: 3rem;
+    padding: inherit;
+    padding-left: 1rem;
+    font-size: inherit;
+}
+.action {
+    margin: 2rem 0;
+}
+button[type="submit"]{
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 20px;
+    cursor: pointer;
+}
+.copyright {
+    padding-top: 1rem;
+    text-align: right;
+}
+.copyright a {
+    text-decoration: none;
+}

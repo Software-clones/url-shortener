@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title> Custom URL Shortener </title>
+</head>
+<body>
+    <header>
+        <h1>
+            Custom URL Shortener for The Software Clones Repo
+        </h1>
+    </header>
+    <main>
+        <form method="post">
+            <div class="card">
+                <div class="form-control">
+                    <label for="url">
+                        URL: Enter the (https://) URL you want to generate a shorter URL for
+                    </label>
+                    <input type="text" name="url" id="url">
+                </div>
+                <div class="form-control">
+                    <label for="url">
+                        Slug (optional): This slug will be appended to the custom URL. Leave blank to generate automatically
+                    </label>
+                    <input type="text" name="slug" id="slug">
+                </div>
+                <div class="action">
+                    <button onclick="e.preventDefault()" type="submit" >Generate</button>
+                </div>
+                <div class="copyright">  
+                    &copy; <a href="https://github.com/Software-clones"> Software Clones </a>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
